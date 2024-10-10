@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(96.2deg, #2640BA -92.42%, #FB6C76 104.33%);
+    gap: 200px;
+    width: 100vw;
+    
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navbar ul {
+list-style-type: none;
+display: flex;
+gap: 20px;
+align-items: center;
+cursor: pointer;
+position: relative;
+}
+.services {
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    gap: 10px;
+}
+
+.dropdown li {
+    padding: 10px;
+    cursor: pointer;
+}
+.dropdown li:hover {
+    background-color: aliceblue;
+}
+.start-business {
+    background-color: #0F1738;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-link {
+    background-color: transparent;
+    font-weight: normal;
+    border: 1px black solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

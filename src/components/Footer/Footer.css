@@ -1,0 +1,135 @@
+.footer {
+    background-color: #1f253b;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section h2 span {
+    color: #ff6384;
+  }
+  
+  .cta-section p {
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .primary-btn {
+    background: linear-gradient(96.2deg, #2640BA -92.42%, #FB6C76 104.33%);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .secondary-link {
+    color: white;
+    text-decoration: underline;
+    align-self: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  
+  .footer-column {
+    width: 23%;
+    text-align: left;
+    margin-left: 25px;
+  }
+  
+  .footer-column h3 {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .footer-column p {
+    color: #ccc;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #ff6384;
+  }
+  
+  /* Subscribe Section */
+  .subscribe-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .subscribe-section input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .subscribe-btn {
+    background: #ff6384;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+  .footer-bottom {
+    padding-top: 40px;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom p {
+    color: #ccc;
+  }
+  
+  .legal-links a {
+    color: #bbb;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .legal-links a:hover {
+    color: #ff6384;
+  }
+  

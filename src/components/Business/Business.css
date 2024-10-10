@@ -1,0 +1,55 @@
+.business-growth {
+    background: linear-gradient(96.2deg, #2640BA -92.42%, #FB6C76 104.33%);
+    padding: 40px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .business-growth h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .business-growth p {
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .primary-btn {
+    background: linear-gradient(96.2deg, #2640BA -92.42%, #FB6C76 104.33%);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    height: 20%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-card .message {
+    color: #444;
+  }
+  
+  .user-message {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .payment-card {
+    text-align: left;
+  }
+  
